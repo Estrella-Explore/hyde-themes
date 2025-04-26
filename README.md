@@ -29,8 +29,7 @@
 These are the base themes used in [HyDE](https://github.com/Hyde-project/hyde) by default, use themepatcher to install a specific theme from one of the branch.
 
 ```shell
-# theme.patch.sh "<Theme Name>" "<git branch url>"
-theme.patch.sh "Catppuccin Mocha" "https://github.com/hyde-project/hyde-themes/tree/Catppuccin-Mocha"
+hydectl theme import --name "Catppuccin Mocha" --url  "https://github.com/HyDE-Project/hyde-themes/tree/Catppuccin-Mocha"
 ```
 
 <br>
